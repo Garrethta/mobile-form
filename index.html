@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <main class="main">
+    <div class="main__top">
+      <a class="main__top-prime" href="#">
+        Prime
+      </a>
+      <a class="main__top-docs" href="#">
+        Docs
+      </a>
+      <a class="main__top-support" href="#popup">
+        Support
+      </a>
+      <span></span>
+    </div>
+    <div id="popup" class="popup mfp-hide">
+      <div class="popup-inner">
+        <div class="popup-top">
+          <div class="popup-title">
+            Support
+          </div>
+        </div>
+        <p class="popup-text">
+          This is the official Twelve Data’s Web Excel Add-in. We also provide more advanced option with technical
+          indicators, charts, and more for Windows.
+        </p>
+        <div class="popup-links">
+          <a href="#">Website</a>
+          <a href="#">Documentation</a>
+          <a href="#">Windows Excel Add-in</a>
+        </div>
+        <div class="popup-bottom">
+          For any questions and features proposals email at <a href="mailto:info@twelvedata.com">info@twelvedata.com</a>
+        </div>
+      </div>
+    </div>
+    <div class="form-wrapper">
+      <form class="form">
+        <div class="form__function">
+          <span>Select function</span>
+          <select class="custom">
+            <option>Select function</option>
+            <option>Select function</option>
+            <option>Select function</option>
+          </select>
+        </div>
+        <div class="form__symbol">
+          <span>Symbol</span>
+          <select class="custom">
+            <option>Symbol</option>
+            <option>Symbol</option>
+            <option>Symbol</option>
+          </select>
+        </div>
+        <div class="form__size">
+          <span>Output Size</span>
+          <select class="custom">
+            <option>Output Size</option>
+            <option>Output Size</option>
+            <option>Output Size</option>
+          </select>
+        </div>
+        <button class="form__btn" type="submit">Get time series</button>
+      </form>
+      <div class="inactive-bg"></div>
+    </div>
+    <div class="bottom">
+      <div class="bottom__form-wrapper">
+        <form class="bottom__form">
+          <div class="bottom__form-api">
+            <span>Your API Key</span>
+            <input type="text">
+          </div>
+          <button class="bottom__form-btn" type="submit">Update</button>
+        </form>
+      </div>
+      <div class="error">
+        <div class="error-top">
+          <div class="error-title">
+            Error
+          </div>
+          <button class="error-closebtn">
+          </button>
+        </div>
+        <div class="error-text">
+          **apikey** parameter is incorrect or not specified. You can get your free API Key instantly following this link: <a href="https://twelvedata.com/apikey">https://twelvedata.com/apikey</a>. If you believe that everything is correct, you can email us at <a href="mailto:apikey@twelvedata.com">apikey@twelvedata.com</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
